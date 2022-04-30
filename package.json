@@ -6,15 +6,28 @@
   "scripts": {
     "start": "nodemon  index.js"
   },
-  "author": "",
+  "author": "admin",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
     "cheerio": "^1.0.0-rc.10",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
+    "cros": "^1.0.1",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "hps": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
     "node-cron": "^3.0.0",
+    "node-image-downloader": "^1.0.7",
+    "node-schedule": "^2.1.0",
     "nodemailer": "^6.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
